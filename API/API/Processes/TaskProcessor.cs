@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace API.Processes
-{
-    internal class TaskProcessor
-    {
+namespace API.Processes;
 
-    }
+internal class TaskProcessor
+{
+
 }
