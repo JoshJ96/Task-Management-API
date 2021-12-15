@@ -15,7 +15,8 @@ public class TaskTests
     [Fact]
     public void TestCreateTask()
     {
-        API.Models.Task task = TaskProcessor.CreateTask("My sample task", "Description of my sample task.", null, null);
+        TaskProcessor taskProcessor = new TaskProcessor();
+        API.Models.Task task = taskProcessor.CreateTask("My sample task", "Description of my sample task.", DateTime.Now, DateTime.Now);
         Assert.True(task != null);
     }
 }

@@ -5995,11 +5995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joshu\\Documents\\Task-Management-API\\API\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Joshu\\Documents\\task-management-api\\task-management-api\\task-management-api\\API\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\Joshu\\Documents\\Task-Management-API\\API\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\Joshu\\Documents\\task-management-api\\task-management-api\\task-management-api\\API\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\Joshu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joshu\\Documents\\Task-Management-API\\API\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\Joshu\\Documents\\task-management-api\\task-management-api\\task-management-api\\API\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6014,15 +6014,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/umbracoprereleases/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Joshu\\Documents\\Task-Management-API\\API\\API\\API.csproj": {
-              "projectPath": "C:\\Users\\Joshu\\Documents\\Task-Management-API\\API\\API\\API.csproj"
+            "C:\\Users\\Joshu\\Documents\\task-management-api\\task-management-api\\task-management-api\\API\\API\\API.csproj": {
+              "projectPath": "C:\\Users\\Joshu\\Documents\\task-management-api\\task-management-api\\task-management-api\\API\\API\\API.csproj"
             }
           }
         }
@@ -6073,7 +6072,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -8,6 +8,6 @@ namespace API.Models;
 
 public class Workspace
 {
-    public List<Person>? members { get; set; }
-    public List<Task>? tasks { get; set; }
+    public List<Person> members { get; set; }
+    public List<Task> tasks { get; set; }
 }

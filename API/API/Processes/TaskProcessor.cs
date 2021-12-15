@@ -8,8 +8,20 @@ namespace API.Processes;
 
 public class TaskProcessor
 {
-    public static Models.Task CreateTask(string? name, string? description, DateTime? startDate, DateTime? endDate)
+    public TaskProcessor()
     {
-        return new Models.Task(name, description, startDate, endDate);
+        API.Events.TaskEvents.Instance.taskCreated += TaskCreated;
+    }
+
+    private void TaskCreated()
+    {
+
+    }
+
+    public API.Models.Task CreateTask(string name, string description, DateTime startDate, DateTime endDate)
+    {
+        API.Models.Task createdTask = new API.Models.Task(name, description, startDate, endDate);
+        API.Events.TaskEvents.Instance.TaskCreated(createdTask);
+        return createdTask;
     }
 }

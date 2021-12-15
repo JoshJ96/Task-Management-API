@@ -8,7 +8,7 @@ namespace API.Models;
 
 public class Person
 {
-    public string? name { get; set; }
+    public string name { get; set; }
 
-    public List<Task>? assignedTasks { get; set; }
+    public List<Task> assignedTasks { get; set; }
 }

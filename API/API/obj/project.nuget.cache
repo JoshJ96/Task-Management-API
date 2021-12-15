@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SQrYiS5jGc1D82XxB9tuldTj0/zTO3j8HmgNeor6AbQGJfG0z7PED0rC5AQB7sJyGs0Q/dWI5V+2dZ+Q/qn6oQ==",
+  "dgSpecHash": "NSUnU4+zsEqIVgXKT2LW5FbKeQvoAnXqS4iAKuFNfBUOjz3qCYzu6aFrZqSHRvXO9+5ZH5SVyTapLKiDrZC0fA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joshu\\Documents\\Task-Management-API\\API\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Joshu\\Documents\\task-management-api\\task-management-api\\task-management-api\\API\\API\\API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

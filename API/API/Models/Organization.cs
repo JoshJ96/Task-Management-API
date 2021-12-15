@@ -8,9 +8,9 @@ namespace API.Models;
 
 public class Organization
 {
-    public string? name { get; set; }
+    public string name { get; set; }
 
-    public List<Person>? members { get; set; }
+    public List<Person> members { get; set; }
 
-    public Person? owner { get; set; }
+    public Person owner { get; set; }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mc9MVP2dvWOVOVm8xkPmedKzSeGXZ5oYkfPguaqWkUa76Y7e5u9YX2veXcCc+AwiseOy4G4XqLh+VF5DUpxPdg==",
+  "dgSpecHash": "i2NeAFKEW333pKvid6Apu+QOPcApeJIHnSOmspKH5RtNHtndq7r1SQGmcUMBPPvse4wZSbnZtUbMUc1SJr32Zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joshu\\Documents\\Task-Management-API\\API\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\Joshu\\Documents\\task-management-api\\task-management-api\\task-management-api\\API\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joshu\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Joshu\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

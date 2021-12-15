@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+API/Tests/obj/project.nuget.cache
+*.props
+*.cache
+*.cache
