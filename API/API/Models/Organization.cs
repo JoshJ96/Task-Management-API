@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace API.Models;
 
-internal class Person
+internal class Organization
 {
     public string? name { get; set; }
 
-    public List<Task>? assignedTasks { get; set; }
+    public List<Person>? members { get; set; }
+
+    public Person? owner { get; set; }
 }
