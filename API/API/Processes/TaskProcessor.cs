@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace API.Processes;
 
-internal class TaskProcessor
+public class TaskProcessor
 {
-
+    public static Models.Task CreateTask(string? name, string? description, DateTime? startDate, DateTime? endDate)
+    {
+        return new Models.Task(name, description, startDate, endDate);
+    }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace API.Models;
 
-internal class Workspace
+public class Workspace
 {
     public List<Person>? members { get; set; }
     public List<Task>? tasks { get; set; }

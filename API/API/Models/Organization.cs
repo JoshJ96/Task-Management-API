@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace API.Models;
 
-internal class Organization
+public class Organization
 {
     public string? name { get; set; }
 

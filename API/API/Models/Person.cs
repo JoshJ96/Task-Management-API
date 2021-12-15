@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace API.Models;
 
-internal class Person
+public class Person
 {
     public string? name { get; set; }
 
